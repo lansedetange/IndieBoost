@@ -50,10 +50,10 @@ export function Footer() {
             <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
               Built by{" "}
               <Link
-                href="https://Raphael.app"
+                href="https://LaunchForge.app"
                 className="font-medium underline underline-offset-4"
               >
-                Raphael Starter
+                LaunchForge
               </Link>
             </p>
           </div>
@@ -69,7 +69,7 @@ export function Footer() {
           <div className="col-span-full lg:col-span-2">
             <Logo />
             <p className="mt-4 text-sm text-muted-foreground">
-              Starter kit for your next project. Built with Next.js and
+              AI-powered launch script generator for indie hackers. Built with Next.js and
               Creem.io.
             </p>
           </div>
@@ -96,7 +96,7 @@ export function Footer() {
           <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
             Built by{" "}
             <Link href="#" className="font-medium underline underline-offset-4">
-              Raphael Starter
+              LaunchForge
             </Link>
             .
           </p>

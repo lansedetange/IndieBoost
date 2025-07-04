@@ -1,39 +1,39 @@
 const faqs = [
   {
     id: 1,
-    question: "How does the global authentication system work?",
+    question: "What platforms does LaunchForge support?",
     answer:
-      "Our authentication system is built on Supabase, which supports email/password login, OAuth providers (like Google), and magic link authentication. It works seamlessly across all regions worldwide and includes features like multi-factor authentication and session management.",
+      "LaunchForge generates launch scripts for Product Hunt, Reddit (r/SideProject, r/IndieHackers), Hacker News, X (Twitter), and Discord. Each script is tailored to the platform's specific audience and best practices.",
   },
   {
     id: 2,
-    question: "What payment methods are supported?",
+    question: "How does the AI generate launch scripts?",
     answer:
-      "Through our integration with Creem.io, we support major credit cards, PayPal, and various regional payment methods. The system handles multiple currencies and automatically manages exchange rates, making it easy to accept payments from customers worldwide.",
+      "Our AI analyzes your project details and uses proven launch templates to create professional scripts. It considers your target audience, product features, and preferred writing style to generate content that resonates with each platform's community.",
   },
   {
     id: 3,
-    question: "Is this starter kit developer-friendly for beginners?",
+    question: "Can I customize the generated scripts?",
     answer:
-      "Absolutely! We've designed this kit with simplicity in mind. It includes comprehensive documentation, clean code structure, and follows best practices. Even if you're new to Next.js or React, you'll find it easy to understand and extend the codebase.",
+      "Absolutely! The generated scripts are fully editable templates designed to give you a professional starting point. You can modify them to match your brand voice or add specific details before launching.",
   },
   {
     id: 4,
-    question: "Can I deploy this application anywhere?",
+    question: "What export formats are available?",
     answer:
-      "Yes, the application can be deployed to any modern hosting platform. We provide detailed deployment guides for Vercel, as well as instructions for deploying to traditional servers. The application is optimized to work globally with minimal configuration.",
+      "You can export your launch scripts in multiple formats: Markdown files for easy editing, PDF for sharing with team members, or directly to Notion for project management. All exports are copy-paste ready.",
   },
   {
     id: 5,
-    question: "How do I manage subscriptions and billing?",
+    question: "Do you offer refunds?",
     answer:
-      "The starter kit includes a complete subscription management system. You can define different subscription tiers, manage billing cycles, and handle customer accounts through the admin dashboard. All payment processing is handled securely by Creem.io.",
+      "Yes, we offer a 7-day money-back guarantee. If you're not satisfied with the quality of your generated launch scripts, contact us for a full refund within 7 days of purchase.",
   },
   {
     id: 6,
-    question: "Is the code base accessible for developers in all regions?",
+    question: "How quickly are scripts generated?",
     answer:
-      "Yes, we've carefully selected dependencies and hosting providers that work well globally. The codebase is optimized for developers worldwide, with consideration for different network environments and accessibility requirements.",
+      "Launch scripts are typically generated within 30-60 seconds. The AI processes your project information and creates tailored content for all selected platforms simultaneously.",
   },
 ]
 

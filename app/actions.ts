@@ -151,12 +151,12 @@ export async function createCheckoutSession(
       },
     };
 
-    // 如果配置了成功重定向 URL，则添加到请求中
+    // Add success redirect URL if configured
     if (process.env.CREEM_SUCCESS_URL) {
       requestBody.success_url = process.env.CREEM_SUCCESS_URL;
     }
 
-    // 添加折扣码（如果有）
+    // Add discount code if provided
     if (discountCode) {
       requestBody.discount_code = discountCode;
     }

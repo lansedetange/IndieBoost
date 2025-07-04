@@ -92,11 +92,11 @@ export default function Pricing() {
         <div>
           <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
             <h2 className="font-bold text-2xl sm:text-3xl md:text-6xl leading-[1.1]">
-              Subscription Plans
+              Launch Packages
             </h2>
             <p className="max-w-[95%] sm:max-w-[85%] text-sm sm:text-lg leading-normal text-muted-foreground">
-              Start building for free and scale up as you grow. All plans
-              include the core features you need to get started.
+              Choose the perfect package for your launch needs. Get professional scripts
+              that help you nail your product debut.
             </p>
           </div>
           <div className="grid lg:grid-cols-3 gap-6 sm:gap-8 mt-8 md:mt-12">
@@ -146,7 +146,7 @@ export default function Pricing() {
                       handleSubscribe(tier.productId, tier.discountCode)
                     }
                   >
-                    Get started
+                    Get Launch Kit
                   </Button>
                 </div>
               </div>
@@ -158,11 +158,11 @@ export default function Pricing() {
         <div>
           <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
             <h2 className="font-bold text-2xl sm:text-3xl md:text-6xl leading-[1.1]">
-              Credit Packages
+              Launch Credits
             </h2>
             <p className="max-w-[95%] sm:max-w-[85%] text-sm sm:text-lg leading-normal text-muted-foreground">
-              Purchase credits to use our services on-demand. Perfect for
-              occasional use and testing.
+              Generate launch scripts on-demand with credits. Perfect for
+              multiple projects and testing different approaches.
             </p>
           </div>
           <div className="grid lg:grid-cols-3 gap-6 sm:gap-8 mt-8 md:mt-12">
@@ -202,7 +202,7 @@ export default function Pricing() {
                       )
                     }
                   >
-                    Buy Credits
+                    Buy Launch Credits
                   </Button>
                 </div>
               </div>

@@ -126,14 +126,14 @@ export default function Contact() {
           </form>
           <div className="lg:mt-6 lg:w-80 lg:flex-none">
             <img
-              alt="Raphael logo"
+              alt="LaunchForge logo"
               src="https://tailwindcss.com/plus-assets/img/logos/workcation-logo-indigo-600.svg"
               className="h-12 w-auto"
             />
             <figure className="mt-10">
               <blockquote className="text-lg/8 font-semibold text-foreground">
                 <p>
-                  "Raphael Starter Kit saved us months of development time. The global authentication and payment systems work flawlessly for our international customer base."
+                  "LaunchForge helped us create professional launch scripts for our Product Hunt debut. We hit #1 Product of the Day thanks to their comprehensive templates!"
                 </p>
               </blockquote>
               <figcaption className="mt-10 flex gap-x-6">
@@ -143,8 +143,8 @@ export default function Contact() {
                   className="size-12 flex-none rounded-full bg-muted"
                 />
                 <div>
-                  <div className="text-base font-semibold text-foreground">Sarah Chen</div>
-                  <div className="text-sm/6 text-muted-foreground">CTO, GlobalTech Solutions</div>
+                  <div className="text-base font-semibold text-foreground">Alex Rodriguez</div>
+                  <div className="text-sm/6 text-muted-foreground">Founder, DevTools Pro</div>
                 </div>
               </figcaption>
             </figure>
